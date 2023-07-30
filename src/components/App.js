@@ -1,31 +1,24 @@
-import React from 'react';
+import React from 'react'; 
+import { Link } from 'react-router-dom';
+import '../styles/style.css';
+import Navigation from './Navigation';
+import Header from './Header';
 
 function App() {
   return (
     <div className="content-wrapper">
-      <header>
-        <nav>
-          <div className="logo-container">
-            <a href="#"><img className="logo-img" src="./images/logo.svg" alt="logo_img" /></a>
-            <a href="#"><h1 className="website-name">Epictetus</h1></a>
+          <div className="header-wrapper">
+            <Header />
           </div>
-          <div className="nav-menu">
-            <ul>
-              <li><a href="#">UI Design</a></li>
-              <li><a href="#">Front-end</a></li>
-              <li><a href="#">Back-end</a></li>
-              <li><a href="#">Lainnya</a></li>
-            </ul>
+          <div className="nav-wrapper">
+            <Navigation /> {/* Menu */}
           </div>
           <div className="search-container">
             <form className="search-bar" action="">
-              <img className="magnifier" src="./images/search.svg" alt="search_img" />
+              <img className="magnifier" src="../../images/search.svg" alt="search_img" />
               <input className="search-placeholder" type="text" placeholder="Search" />
             </form>
           </div>
-        </nav>
-      </header>
-
       <div className="posts">
         <div className="head-post-wrapper">
           <div className="main-image">
@@ -37,6 +30,7 @@ function App() {
             <div className="section"></div>
             <div className="date"></div>
           </div>
+          
           <div className="main-title">
             <h1>Understanding color theory: the color wheel and finding complementary colors</h1>
           </div>
