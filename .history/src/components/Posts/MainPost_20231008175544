@@ -1,0 +1,11 @@
+import React from 'react';
+
+
+const MainPost = () => {
+return (
+        <div className="main-post-wrapper">
+            <img src="images/homemain.png" alt="homemain_img" />
+        </div>
+    );
+};
+export default MainPost;

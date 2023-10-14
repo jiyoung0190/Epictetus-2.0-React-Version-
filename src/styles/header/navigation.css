@@ -1,0 +1,18 @@
+header a {
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+header a:link, header a:visited {
+  color: #121212;
+  text-decoration: none;
+}
+header a:hover {
+  color: #121212;
+  font-size: 1.3em;
+  transform: scale(1.1, 1.1);
+}
+header a .logo-img, header a .website-name {
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}/*# sourceMappingURL=navigation.css.map */

@@ -1,0 +1,13 @@
+import React from 'react';
+
+
+const MainPost = () => {
+return (
+    <header>
+        <Logo />
+        <Navigation />
+        <SearchBar />
+    </header>
+    );
+};
+export default MainPost;

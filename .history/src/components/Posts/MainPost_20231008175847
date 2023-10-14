@@ -1,0 +1,11 @@
+import React from 'react';
+
+
+const MainPost = (props) => {
+return (
+        <div className="main-post">
+            <img className={this.props.image_classname} src={this.props.image_src} alt={this.props.image_alt}/>
+        </div>
+    );
+};
+export default MainPost;
